@@ -1,5 +1,5 @@
 class Mypromise{
-    constructor(){
+    constructor(executor){
         this.state = "pending"
         this.value = undefined
         this.reason = undefined
@@ -23,7 +23,7 @@ class Mypromise{
         }
 
         try{
-            execute(resolve, reject)
+            executor(resolve, reject)
         }catch(err){
             reject(err)
         }
@@ -50,7 +50,7 @@ class Mypromise{
                     const res = onRejected(this.reason)
                     resolve(res)
                     }else{
-                        resolve(this.value)
+                        reject(this.reason)
                     }
                }catch(err){
                     reject(err)
@@ -58,9 +58,9 @@ class Mypromise{
             }
 
             if(this.state == 'resolved'){
-                setTimeout(()=>handleResolved, 0)
+                setTimeout(handleResolved, 0)
             }else if(this.state == 'rejected'){
-                setTimeout(()=> handleRejected, 0)
+                setTimeout(handleRejected, 0)
             }else{
                 this.resolveCbs.push(()=>setTimeout(handleResolved, 0))
                 this.rejectCbs.push(()=>setTimeout(handleRejected, 0))
@@ -72,3 +72,37 @@ class Mypromise{
         return this.then(null, onRejected)
     }
 }
+
+const promise1 = new Mypromise((resolve)=>{
+    setTimeout(()=>{
+        console.log('success 1')
+        resolve('resolved value')
+    }, 0)
+})
+
+promise1.then((res)=>{
+    console.log(res)
+})
+
+const promise2 = new Mypromise((resolve, reject)=>{
+    reject('I am the reject')
+})
+promise2.then((res)=>{
+    console.log('res===', res)
+}).catch((err)=>{
+    console.log('err-----', err)
+})
+
+// test2 chaining
+const promise3 = new Mypromise((resolve)=>{
+    setTimeout(()=>resolve(5), 10)
+})
+promise3.then(val=>{
+    console.log('first start --', val)
+    return val * 2
+}).then(val=>{
+    console.log('second then --', val)
+   return val + 10
+}).then(val=>{
+   console.log('third then --', val)
+})

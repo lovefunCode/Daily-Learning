@@ -1,3 +1,4 @@
+// 1. 3 status: 1. pending, 2. fulfilled, 3. rejected
 class MyPromise{
     constructor(executor){
         this.state = 'pending'
@@ -8,7 +9,7 @@ class MyPromise{
         
         const resolve = (value)=>{
             if(this.state === 'pending'){
-                this.state = 'resolved'
+                this.state = 'fulfilled'
                 this.value = value
                 this.resolvedCbs.forEach(cb=>cb(value))
             }
@@ -67,7 +68,7 @@ class MyPromise{
                 }
             }
 
-            if(parent.state === 'resolved'){
+            if(parent.state === 'fulfilled'){
                 setTimeout(handleResolved, 0)
             }else if(parent.state == 'rejected'){
                  setTimeout(handleRejected, 0)
@@ -85,6 +86,14 @@ class MyPromise{
 
     catch(rejected){
         return this.then(null, rejected)
+    }
+
+    Resolved(value){
+        return new MyPromise((resolve)=>resolve(value)
+    }
+
+    Rejected(reason){
+        return new MyPromise((_, reject)=> reject(reason))
     }
 }
 

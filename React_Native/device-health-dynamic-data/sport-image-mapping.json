@@ -1,0 +1,452 @@
+
+{
+    "1": {
+      "typeName": "室内跑步",
+      "typeImg": "img_treadmill"
+    },
+    "2": {
+      "typeName": "户外跑步",
+      "typeImg": "img_outdoorscene"
+    },
+    "3": {
+      "typeName": "徒步",
+      "typeImg": "img_outdoorscene"
+    },
+    "4": {
+      "typeName": "户外骑行",
+      "typeImg": "img_outdoorscene"
+    },
+    "5": {
+      "typeName": "爬山",
+      "typeImg": "img_mountainpeak"
+    },
+    "6": {
+      "typeName": "健身课程",
+      "typeImg": "img_indoorscene"
+    },
+    "16": {
+      "typeName": "户外跑步",
+      "typeImg": "img_outdoorscene"
+    },
+    "17": {
+      "typeName": "室内跑步",
+      "typeImg": "img_treadmill"
+    },
+    "18": {
+      "typeName": "健走模式",
+      "typeImg": "img_outdoorscene"
+    },
+    "19": {
+      "typeName": "足球模式",
+      "typeImg": "img_outdoorscene"
+    },
+    "20": {
+      "typeName": "羽毛球",
+      "typeImg": "img_outdoorscene"
+    },
+    "21": {
+      "typeName": "网球",
+      "typeImg": "img_outdoorscene"
+    },
+    "22": {
+      "typeName": "骑行",
+      "typeImg": "img_outdoorscene"
+    },
+    "23": {
+      "typeName": "登山",
+      "typeImg": "img_mountainpeak"
+    },
+    "24": {
+      "typeName": "篮球",
+      "typeImg": "img_outdoorscene"
+    },
+    "25": {
+      "typeName": "椭圆机",
+      "typeImg": "img_indoorscene"
+    },
+    "26": {
+      "typeName": "瑜伽",
+      "typeImg": "img_indoorscene"
+    },
+    "27": {
+      "typeName": "游泳",
+      "typeImg": "img_swimmingpool"
+    },
+    "28": {
+      "typeName": "徒步",
+      "typeImg": "img_outdoorscene"
+    },
+    "29": {
+      "typeName": "仰卧起坐",
+      "typeImg": "img_indoorscene"
+    },
+    "31": {
+      "typeName": "俯卧撑",
+      "typeImg": "img_indoorscene"
+    },
+    "32": {
+      "typeName": "铁人三项",
+      "typeImg": "img_outdoorscene"
+    },
+    "33": {
+      "typeName": "自由训练",
+      "typeImg": "img_indoorscene"
+    },
+    "34": {
+      "typeName": "漫步机",
+      "typeImg": "img_treadmill"
+    },
+    "35": {
+      "typeName": "旋转",
+      "typeImg": "img_indoorscene"
+    },
+    "36": {
+      "typeName": "跳绳",
+      "typeImg": "img_indoorscene"
+    },
+    "37": {
+      "typeName": "楼梯运动",
+      "typeImg": "img_indoorscene"
+    },
+    "38": {
+      "typeName": "踏步机",
+      "typeImg": "img_treadmill"
+    },
+    "39": {
+      "typeName": "健身操",
+      "typeImg": "img_indoorscene"
+    },
+    "40": {
+      "typeName": "毽球",
+      "typeImg": "img_outdoorscene"
+    },
+    "41": {
+      "typeName": "哑铃",
+      "typeImg": "img_indoorscene"
+    },
+    "42": {
+      "typeName": "跳舞",
+      "typeImg": "img_indoorscene"
+    },
+    "43": {
+      "typeName": "普拉提",
+      "typeImg": "img_indoorscene"
+    },
+    "44": {
+      "typeName": "呼啦圈",
+      "typeImg": "img_indoorscene"
+    },
+    "45": {
+      "typeName": "乒乓球",
+      "typeImg": "img_pingpong"
+    },
+    "46": {
+      "typeName": "室内骑行",
+      "typeImg": "img_indoorscene"
+    },
+    "47": {
+      "typeName": "户外骑行",
+      "typeImg": "img_outdoorscene"
+    },
+    "48": {
+      "typeName": "开合跳",
+      "typeImg": "img_indoorscene"
+    },
+    "49": {
+      "typeName": "力量训练",
+      "typeImg": "img_indoorscene"
+    },
+    "50": {
+      "typeName": "越野",
+      "typeImg": "img_outdoorscene"
+    },
+    "51": {
+      "typeName": "竞走",
+      "typeImg": "img_outdoorscene"
+    },
+    "52": {
+      "typeName": "轮滑",
+      "typeImg": "img_outdoorscene"
+    },
+    "53": {
+      "typeName": "攀岩",
+      "typeImg": "img_outdoorscene"
+    },
+    "54": {
+      "typeName": "滑板",
+      "typeImg": "img_outdoorscene"
+    },
+    "55": {
+      "typeName": "跑酷",
+      "typeImg": "img_outdoorscene"
+    },
+    "56": {
+      "typeName": "沙滩车",
+      "typeImg": "img_outdoorscene"
+    },
+    "57": {
+      "typeName": "滑翔伞",
+      "typeImg": "img_outdoorscene"
+    },
+    "58": {
+      "typeName": "橄榄球",
+      "typeImg": "img_outdoorscene"
+    },
+    "59": {
+      "typeName": "慢跑",
+      "typeImg": "img_outdoorscene"
+    },
+    "60": {
+      "typeName": "棒球",
+      "typeImg": "img_outdoorscene"
+    },
+    "61": {
+      "typeName": "快跑",
+      "typeImg": "img_outdoorscene"
+    },
+    "62": {
+      "typeName": "半马",
+      "typeImg": "img_outdoorscene"
+    },
+    "63": {
+      "typeName": "全马",
+      "typeImg": "img_outdoorscene"
+    },
+    "64": {
+      "typeName": "散步",
+      "typeImg": "img_outdoorscene"
+    },
+    "65": {
+      "typeName": "开放水域",
+      "typeImg": "img_outdoorscene"
+    },
+    "66": {
+      "typeName": "高尔夫球",
+      "typeImg": "img_golf"
+    },
+    "67": {
+      "typeName": "台球",
+      "typeImg": "img_indoorscene"
+    },
+    "68": {
+      "typeName": "保龄球",
+      "typeImg": "img_indoorscene"
+    },
+    "69": {
+      "typeName": "排球",
+      "typeImg": "img_indoorscene"
+    },
+    "70": {
+      "typeName": "骑马",
+      "typeImg": "img_outdoorscene"
+    },
+    "71": {
+      "typeName": "滑翔机",
+      "typeImg": "img_outdoorscene"
+    },
+    "72": {
+      "typeName": "划船机",
+      "typeImg": "img_outdoorscene"
+    },
+    "73": {
+      "typeName": "溜冰",
+      "typeImg": "img_indoorscene"
+    },
+    "74": {
+      "typeName": "壁球",
+      "typeImg": "img_indoorscene"
+    },
+    "75": {
+      "typeName": "太极拳",
+      "typeImg": "img_outdoorscene"
+    },
+    "76": {
+      "typeName": "蹦床",
+      "typeImg": "img_indoorscene"
+    },
+    "256": {
+      "typeName": "户外跑步",
+      "typeImg": "img_outdoorscene"
+    },
+    "257": {
+      "typeName": "室内跑步",
+      "typeImg": "img_treadmill"
+    },
+    "258": {
+      "typeName": "户外骑行",
+      "typeImg": "img_outdoorscene"
+    },
+    "259": {
+      "typeName": "徒步",
+      "typeImg": "img_outdoorscene"
+    },
+    "260": {
+      "typeName": "爬山",
+      "typeImg": "img_mountainpeak"
+    },
+    "261": {
+      "typeName": "背部初级训练",
+      "typeImg": "img_indoorscene"
+    },
+    "262": {
+      "typeName": "背部中级训练",
+      "typeImg": "img_indoorscene"
+    },
+    "263": {
+      "typeName": "胸部初级训练",
+      "typeImg": "img_indoorscene"
+    },
+    "264": {
+      "typeName": "胸部中级训练",
+      "typeImg": "img_indoorscene"
+    },
+    "265": {
+      "typeName": "胸部高级训练",
+      "typeImg": "img_indoorscene"
+    },
+    "266": {
+      "typeName": "腹部初级训练",
+      "typeImg": "img_indoorscene"
+    },
+    "267": {
+      "typeName": "腹部中级训练",
+      "typeImg": "img_indoorscene"
+    },
+    "268": {
+      "typeName": "腹部高级训练",
+      "typeImg": "img_indoorscene"
+    },
+    "269": {
+      "typeName": "腿部初级训练",
+      "typeImg": "img_indoorscene"
+    },
+    "270": {
+      "typeName": "腿部中级训练",
+      "typeImg": "img_indoorscene"
+    },
+    "271": {
+      "typeName": "腿部高级训练",
+      "typeImg": "img_indoorscene"
+    },
+    "272": {
+      "typeName": "臀部塑形训练",
+      "typeImg": "img_indoorscene"
+    },
+    "274": {
+      "typeName": "紧致臀部，拥有蜜桃臀",
+      "typeImg": "img_indoorscene"
+    },
+    "275": {
+      "typeName": "臀部塑形阻力带",
+      "typeImg": "img_indoorscene"
+    },
+    "276": {
+      "typeName": "HILT-12分钟暴汗燃脂",
+      "typeImg": "img_indoorscene"
+    },
+    "277": {
+      "typeName": "HilT 大体重无跳跃减脂",
+      "typeImg": "img_indoorscene"
+    },
+    "278": {
+      "typeName": "马甲线养成·经典必练",
+      "typeImg": "img_indoorscene"
+    },
+    "279": {
+      "typeName": "腹肌塑造进阶·轮廓清晰",
+      "typeImg": "img_indoorscene"
+    },
+    "280": {
+      "typeName": "HllT 减脂训练 全身循环",
+      "typeImg": "img_indoorscene"
+    },
+    "281": {
+      "typeName": "HILT上肢强化",
+      "typeImg": "img_indoorscene"
+    },
+    "282": {
+      "typeName": "HIIT下肢强化",
+      "typeImg": "img_indoorscene"
+    },
+    "283": {
+      "typeName": "HIIT下肢强化进阶",
+      "typeImg": "img_indoorscene"
+    },
+    "284": {
+      "typeName": "HiIT 站立快速燃脂",
+      "typeImg": "img_indoorscene"
+    },
+    "285": {
+      "typeName": "taba腹部燃脂",
+      "typeImg": "img_indoorscene"
+    },
+    "286": {
+      "typeName": "tabata腹部燃脂进阶",
+      "typeImg": "img_indoorscene"
+    },
+    "287": {
+      "typeName": "tabata腹部燃脂升级",
+      "typeImg": "img_indoorscene"
+    },
+    "288": {
+      "typeName": "办公一族改善肩颈酸痛",
+      "typeImg": "img_indoorscene"
+    },
+    "289": {
+      "typeName": "改善体态含胸驼背，头前引训练",
+      "typeImg": "img_indoorscene"
+    },
+    "290": {
+      "typeName": "宿舍瘦肚子",
+      "typeImg": "img_indoorscene"
+    },
+    "291": {
+      "typeName": "宿舍瘦肚子进阶",
+      "typeImg": "img_indoorscene"
+    },
+    "292": {
+      "typeName": "腹肌撕裂者· 进阶",
+      "typeImg": "img_indoorscene"
+    },
+    "293": {
+      "typeName": "核心腹部训练",
+      "typeImg": "img_indoorscene"
+    },
+    "294": {
+      "typeName": "跑步后拉伸",
+      "typeImg": "img_indoorscene"
+    },
+    "295": {
+      "typeName": "跑步膝自我恢复训练",
+      "typeImg": "img_indoorscene"
+    },
+    "296": {
+      "typeName": "跑步专项徒手力量训练",
+      "typeImg": "img_indoorscene"
+    },
+    "297": {
+      "typeName": "跑前热身训练",
+      "typeImg": "img_indoorscene"
+    },
+    "298": {
+      "typeName": "全身拉伸展训练",
+      "typeImg": "img_indoorscene"
+    },
+    "299": {
+      "typeName": "小哑铃塑形·背部强化",
+      "typeImg": "img_indoorscene"
+    },
+    "300": {
+      "typeName": "哑铃肩部塑形·饱满三角肌",
+      "typeImg": "img_indoorscene"
+    },
+    "301": {
+      "typeName": "哑铃手臂-塑形训练",
+      "typeImg": "img_indoorscene"
+    },
+    "302": {
+      "typeName": "哑铃胸肌训练",
+      "typeImg": "img_indoorscene"
+    }
+  }
+  

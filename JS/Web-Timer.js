@@ -107,3 +107,40 @@ console.log('===end====')
 // VM59:24 setTimeout ===== 
 // VM59:26 setTimeout Promise======
 // VM59:35 requestIdleCallback=====
+
+
+// ┌───────────────────────────┐
+// │     Call Stack            │
+// │   (Synchronous Code)      │
+// └─────────────┬─────────────┘
+//               │
+// ┌─────────────▼─────────────┐
+// │   Microtask Queue         │
+// │   - Promise.then()        │
+// │   - queueMicrotask()      │
+// │   - MutationObserver      │
+// └─────────────┬─────────────┘
+//               │
+// ┌─────────────▼─────────────┐
+// │   Render Pipeline         │
+// │   - Style calculation     │
+// │   - Layout                │
+// │   - Paint                 │
+// └─────────────┬─────────────┘
+//               │
+// ┌─────────────▼─────────────┐
+// │   Macrotask Queue         │
+// │   - setTimeout            │
+// │   - setInterval           │
+// │   - I/O                   │
+// └─────────────┬─────────────┘
+//               │
+// ┌─────────────▼─────────────┐
+// │   requestAnimationFrame   │
+// │   (before next paint)     │
+// └─────────────┬─────────────┘
+//               │
+// ┌─────────────▼─────────────┐
+// │   requestIdleCallback     │
+// │   (when browser is idle)  │
+// └───────────────────────────┘

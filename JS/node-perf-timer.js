@@ -90,13 +90,37 @@ setImmediate(() => console.log('immediate'))
 
 
 // but if you run them inside an I/O callback, setImmediate is always first
-const fs = require('fs')
-fs.readFile(__filename, ()=>{
-    setTimeout(()=> console.log('timeout'), 0)
-    setImmediate(()=> console.log('immediate'))
-    // always : immediate -> timeout
-})
+// const fs = require('fs')
+// fs.readFile(__filename, ()=>{
+//     setTimeout(()=> console.log('timeout'), 0)
+//     setImmediate(()=> console.log('immediate'))
+//     // always : immediate -> timeout
+// })
 
+
+
+// const fs = require('fs');
+
+console.log('START');
+
+// Timer for 50ms
+setTimeout(() => console.log('TIMER 50ms'), 50);
+
+// Timer for 150ms  
+setTimeout(() => console.log('TIMER 150ms'), 150);
+
+// File read (takes ~10ms)
+fs.readFile(__filename, () => {
+  console.log('FILE READ complete');
+  
+  setImmediate(() => console.log('IMMEDIATE inside file read'));
+  
+  setTimeout(() => console.log('TIMER 0ms inside file read'), 0);
+});
+
+setImmediate(() => console.log('IMMEDIATE 1'));
+
+console.log('END');
 
 
 

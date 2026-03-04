@@ -19,14 +19,15 @@ function graphTraverse(graph){
    let visited = new Set()
    let result = []
 
-  for(let [node, dep] of Object.entries(graph){
+  for(let [node, dep] of Object.entries(graph)){
       dfs(node)
   }
 
   function dfs(node){
-    if(visited.has(node){
+    if(visited.has(node)){
       return
     }
+    visited.add(node)
     // pre-order
     //result.push(node)
     for(let dep of graph[node]){

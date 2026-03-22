@@ -24,6 +24,16 @@ setImmediate(() => console.log('IMMEDIATE 1'));
 console.log('END');
 
 
+// START
+// END
+// IMMEDIATE 1
+// TIMER 0ms
+// FILE READ complete
+// IMMEDIATE inside file read
+// TIMER 2ms
+// TIMER 0ms inside file read
+// TIMER 5ms
+
 // ## 3. Node.js Timers
 
 // ### Event Loop Architecture
@@ -57,3 +67,5 @@ console.log('END');
 // │  └───────────────────────────┘
 // │
 // └──────────────────────────────────┘
+
+

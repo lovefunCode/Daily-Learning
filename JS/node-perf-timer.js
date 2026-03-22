@@ -6,41 +6,41 @@ function log(msg){
     console.log(`[${elapsed} ms]  ${msg}`)
 }
 
-log('1: Sync: start')
+// log('1: Sync: start')
 
-setTimeout(()=>{
-    log('2: SetTimeout 0')
-})
+// setTimeout(()=>{
+//     log('2: SetTimeout 0')
+// })
 
-setTimeout(()=>{
-    log('3: SetTimeout 10')
-}, 10)
+// setTimeout(()=>{
+//     log('3: SetTimeout 10')
+// }, 10)
 
-setImmediate(()=>{
-    log('4: SetImmediate 1')
+// setImmediate(()=>{
+//     log('4: SetImmediate 1')
 
-    setImmediate(()=>{
-        log('5: Nested SetImmediate')
-    })
-})
+//     setImmediate(()=>{
+//         log('5: Nested SetImmediate')
+//     })
+// })
 
-Promise.resolve().then(()=>{
-    log('6: Promise 1')
-})
+// Promise.resolve().then(()=>{
+//     log('6: Promise 1')
+// })
 
-Promise.resolve().then(()=>{
-    log('8: Promise 2')
+// Promise.resolve().then(()=>{
+//     log('8: Promise 2')
 
-    setImmediate(()=>{
-        log('9: setImmediate in Promise')
-    })
-})
+//     setImmediate(()=>{
+//         log('9: setImmediate in Promise')
+//     })
+// })
 
-setImmediate(()=>{
-    log('10: setImmediate 2')
-})
+// setImmediate(()=>{
+//     log('10: setImmediate 2')
+// })
 
- log('11: Sync End')
+//  log('11: Sync End')
 
 // [0.008 ms]  1: Sync: start
 // [9.865 ms]  11: Sync End
@@ -99,7 +99,7 @@ setImmediate(() => console.log('immediate'))
 
 
 
-// const fs = require('fs');
+const fs = require('fs');
 
 console.log('START');
 
